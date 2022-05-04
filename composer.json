@@ -1,0 +1,32 @@
+{
+    "name": "wwwillian/laravel-multi-tenant-db",
+    "description": "A multitenant provider for your laravel application",
+    "type": "library",
+    "require": {
+        "php": ">=7.1",
+        "laravel/framework": "5.*"
+    },
+    "authors": [
+        {
+            "name": "Matheus Alves",
+            "email": "connect.malves@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ConnectMalves\\MultiTenantDB\\": "src/",
+            "ConnectMalves\\MultiTenantDB\\Models\\": "src/models",
+            "ConnectMalves\\MultiTenantDB\\Traits\\": "src/traits",
+            "ConnectMalves\\MultiTenantDB\\Middlewares\\": "src/middlewares",
+            "ConnectMalves\\MultiTenantDB\\Events\\": "src/events"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ConnectMalves\\MultiTenantDB\\Providers\\ServiceProvider"
+            ],
+            "aliases": []
+        }
+    }
+}

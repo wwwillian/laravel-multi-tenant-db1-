@@ -14,17 +14,17 @@
     ],
     "autoload": {
         "psr-4": {
-            "ConnectMalves\\MultiTenantDB\\": "src/",
-            "ConnectMalves\\MultiTenantDB\\Models\\": "src/models",
-            "ConnectMalves\\MultiTenantDB\\Traits\\": "src/traits",
-            "ConnectMalves\\MultiTenantDB\\Middlewares\\": "src/middlewares",
-            "ConnectMalves\\MultiTenantDB\\Events\\": "src/events"
+            "Wwwillian\\MultiTenantDB\\": "src/",
+            "Wwwillian\\MultiTenantDB\\Models\\": "src/models",
+            "Wwwillian\\MultiTenantDB\\Traits\\": "src/traits",
+            "Wwwillian\\MultiTenantDB\\Middlewares\\": "src/middlewares",
+            "Wwwillian\\MultiTenantDB\\Events\\": "src/events"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "ConnectMalves\\MultiTenantDB\\Providers\\ServiceProvider"
+                "Wwwillian\\MultiTenantDB\\Providers\\ServiceProvider"
             ],
             "aliases": []
         }

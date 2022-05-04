@@ -1,6 +1,6 @@
 <?php
 
-namespace ConnectMalves\MultiTenantDB\Events;
+namespace Wwwillian\MultiTenantDB\Events;
 
 use Illuminate\Queue\SerializesModels;
 

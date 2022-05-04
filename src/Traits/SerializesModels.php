@@ -1,6 +1,6 @@
 <?php
 
-namespace ConnectMalves\MultiTenantDB\Traits;
+namespace Wwwillian\MultiTenantDB\Traits;
 
 use Illuminate\Queue\SerializesAndRestoresModelIdentifiers;
 use ReflectionClass;

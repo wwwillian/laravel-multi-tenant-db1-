@@ -1,12 +1,12 @@
 <?php
 
-namespace ConnectMalves\MultiTenantDB\Middlewares;
+namespace Wwwillian\MultiTenantDB\Middlewares;
 
 use Closure;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\ConnectionResolver;
-use ConnectMalves\MultiTenantDB\Models\Company;
-use ConnectMalves\MultiTenantDB\Events\CompanyAuthenticated;
+use Wwwillian\MultiTenantDB\Models\Company;
+use Wwwillian\MultiTenantDB\Events\CompanyAuthenticated;
 use Illuminate\Support\Facades\DB;
 use Str;
 
@@ -51,7 +51,7 @@ class HandleSubdomains
     /**
      * Check if company subdomain exists and if it is available
      *
-     * @param  \ConnectMalves\MultiTenantDB\Models\Company $company;
+     * @param  \Wwwillian\MultiTenantDB\Models\Company $company;
      */
     private function checkCompanyAvailable ($company) {
 

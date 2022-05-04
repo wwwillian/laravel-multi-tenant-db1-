@@ -1,11 +1,11 @@
 <?php
 
-namespace ConnectMalves\MultiTenantDB\Models;
+namespace Wwwillian\MultiTenantDB\Models;
 
 use Illuminate\Database\Connection as ConnectionBuilder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\ConnectionResolver;
-use MsAlvexx\LaravelPlans\Traits\HasPlans;
+use Wwwillian\LaravelPlans\Traits\HasPlans;
 
 class Company extends Model
 {

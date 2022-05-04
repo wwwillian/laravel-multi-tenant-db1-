@@ -1,6 +1,6 @@
 <?php
 
-namespace ConnectMalves\MultiTenantDB\Providers;
+namespace Wwwillian\MultiTenantDB\Providers;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
